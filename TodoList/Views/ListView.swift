@@ -14,6 +14,7 @@ struct ListView: View {
         ItemModel(title: "This is the second!", isCompleted: true),
         ItemModel(title: "Third", isCompleted: false),
         ItemModel(title: "Fourth", isCompleted: true)
+        ItemModel(title: "Fifth", isCompleted: true)
     ]
     
     var body: some View {
