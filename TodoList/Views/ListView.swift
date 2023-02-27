@@ -12,7 +12,8 @@ struct ListView: View {
     @State var items: [ItemModel] = [
         ItemModel(title: "This is the first title!", isCompleted: false),
         ItemModel(title: "This is the second!", isCompleted: true),
-        ItemModel(title: "Third", isCompleted: false)
+        ItemModel(title: "Third", isCompleted: false),
+        ItemModel(title: "Fourth", isCompleted: true)
     ]
     
     var body: some View {
