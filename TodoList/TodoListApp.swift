@@ -29,6 +29,8 @@ struct TodoListApp: App {
             NavigationStack {
                 ListView()
             }
+            // 아이패드에서는 내비게이션 뷰가 다름. .stack으로 설정하면 똑같아진다.
+            .navigationViewStyle(NavigationViewStyle.stack)
             .environmentObject(listViewModel)
             
         }
