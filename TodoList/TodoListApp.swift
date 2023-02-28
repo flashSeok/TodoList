@@ -8,15 +8,12 @@
 import SwiftUI
 
 /*
- MVVM Architecture
- 
- Model - data point
- View - UI
- ViewModel - managers Mdels for View
- 
- 
- */
+MVVM Architecture
 
+Model - data point
+View - UI
+ViewModel - managers Mdels for View
+*/
 
 
 @main
